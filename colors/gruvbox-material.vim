@@ -58,8 +58,8 @@ else
     call gruvbox_material#highlight('FoldColumn', s:palette.grey0, s:palette.none)
   endif
 endif
-call gruvbox_material#highlight('IncSearch', s:palette.bg0, s:palette.bg_red)
-call gruvbox_material#highlight('Search', s:palette.bg0, s:palette.bg_green)
+call gruvbox_material#highlight('IncSearch', s:palette.bg0, s:palette.marker1)
+call gruvbox_material#highlight('Search', s:palette.bg0, s:palette.marker0)
 call gruvbox_material#highlight('ColorColumn', s:palette.none, s:palette.bg2)
 call gruvbox_material#highlight('Conceal', s:palette.grey0, s:palette.none)
 if s:configuration.cursor ==# 'auto'
@@ -721,7 +721,7 @@ highlight! link EasyMotionTarget Search
 highlight! link EasyMotionShade Grey
 " }}}
 " justinmk/vim-sneak {{{
-call gruvbox_material#highlight('SneakLabelMask', s:palette.bg_green, s:palette.bg_green)
+call gruvbox_material#highlight('SneakLabelMask', s:palette.marker0, s:palette.marker0)
 highlight! link Sneak Search
 highlight! link SneakLabel Search
 highlight! link SneakScope DiffText

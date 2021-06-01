@@ -267,6 +267,8 @@ function! gruvbox_material#get_palette(background, palette) "{{{
           \ 'grey0':            ['#7c6f64',   '243'],
           \ 'grey1':            ['#928374',   '245'],
           \ 'grey2':            ['#a89984',   '246'],
+          \ 'marker0':          ['#ffef00',   '11'],
+          \ 'marker1':          ['#ff9900',   '11'],
           \ 'none':             ['NONE',      'NONE']
           \ } "}}}
   else "{{{
@@ -274,6 +276,8 @@ function! gruvbox_material#get_palette(background, palette) "{{{
           \ 'grey0':            ['#a89984',   '246'],
           \ 'grey1':            ['#928374',   '245'],
           \ 'grey2':            ['#7c6f64',   '243'],
+          \ 'marker0':          ['#9900ff',   '13'],
+          \ 'marker1':          ['#0099ff',   '13'],
           \ 'none':             ['NONE',      'NONE']
           \ }
   endif "}}}
