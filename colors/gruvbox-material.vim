@@ -112,7 +112,7 @@ else
 end
 highlight! link WildMenu PmenuSel
 call gruvbox_material#highlight('PmenuThumb', s:palette.none, s:palette.grey0)
-call gruvbox_material#highlight('NormalFloat', s:palette.fg1, s:palette.bg3)
+call gruvbox_material#highlight('NormalFloat', s:palette.fg1, s:palette.bg0)
 call gruvbox_material#highlight('Question', s:palette.yellow, s:palette.none)
 call gruvbox_material#highlight('SpellBad', s:palette.red, s:palette.none, 'undercurl', s:palette.red)
 call gruvbox_material#highlight('SpellCap', s:palette.blue, s:palette.none, 'undercurl', s:palette.blue)
