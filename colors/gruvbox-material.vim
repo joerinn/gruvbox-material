@@ -165,6 +165,7 @@ call gruvbox_material#highlight('Debug', s:palette.orange, s:palette.none)
 call gruvbox_material#highlight('debugPC', s:palette.bg0, s:palette.green)
 call gruvbox_material#highlight('debugBreakpoint', s:palette.bg0, s:palette.red)
 call gruvbox_material#highlight('ToolbarButton', s:palette.bg0, s:palette.grey2)
+call gruvbox_material#highlight('IndentBlanklineChar', s:palette.bg3, s:palette.none)
 if has('nvim')
   call gruvbox_material#highlight('Substitute', s:palette.bg0, s:palette.yellow)
   highlight! link LspDiagnosticsFloatingError ErrorFloat
