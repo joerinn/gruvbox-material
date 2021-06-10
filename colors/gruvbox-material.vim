@@ -60,7 +60,7 @@ else
 endif
 call gruvbox_material#highlight('IncSearch', s:palette.bg0, s:palette.marker1)
 call gruvbox_material#highlight('Search', s:palette.bg0, s:palette.marker0)
-call gruvbox_material#highlight('ColorColumn', s:palette.none, s:palette.bg2)
+call gruvbox_material#highlight('ColorColumn', s:palette.none, s:palette.marker2)
 call gruvbox_material#highlight('Conceal', s:palette.grey0, s:palette.none)
 if s:configuration.cursor ==# 'auto'
   call gruvbox_material#highlight('Cursor', s:palette.none, s:palette.none, 'reverse')
@@ -95,7 +95,7 @@ call gruvbox_material#highlight('ErrorMsg', s:palette.red, s:palette.none, 'bold
 call gruvbox_material#highlight('WarningMsg', s:palette.yellow, s:palette.none, 'bold')
 call gruvbox_material#highlight('ModeMsg', s:palette.fg0, s:palette.none, 'bold')
 call gruvbox_material#highlight('MoreMsg', s:palette.yellow, s:palette.none, 'bold')
-call gruvbox_material#highlight('MatchParen', s:palette.none, s:palette.bg4)
+call gruvbox_material#highlight('MatchParen', s:palette.marker1, s:palette.none)
 call gruvbox_material#highlight('NonText', s:palette.bg5, s:palette.none)
 call gruvbox_material#highlight('Whitespace', s:palette.bg5, s:palette.none)
 call gruvbox_material#highlight('SpecialKey', s:palette.bg5, s:palette.none)

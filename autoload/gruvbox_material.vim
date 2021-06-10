@@ -281,6 +281,8 @@ function! gruvbox_material#get_palette(background, palette) "{{{
           \ 'none':             ['NONE',      'NONE']
           \ }
   endif "}}}
+
+  let palette3.marker2 = ['#ff1818', '9']
   return extend(extend(palette1, palette2), palette3)
 endfunction "}}}
 function! gruvbox_material#highlight(group, fg, bg, ...) "{{{
